@@ -1,3 +1,8 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
 .color1{
     background-color:black;
     height: 70px;
@@ -7,4 +12,14 @@
     background-color:red;
     height: 70px;
     width: 70px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+table{
+    border-collapse: collapse;
 }
